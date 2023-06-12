@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Ejercicio_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 1.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Nombre:" />
+        <Entry x:Name="nombres" Placeholder="Ingrese su Nombre" Margin="10,5,10,5" />
+        <Label Text="Apellido:" />
+        <Entry x:Name="apellidos" Placeholder="Ingrese su Apellido" Margin="10,5,10,5" />
+        <Label Text="Edad:" />
+        <Entry x:Name="edad" Placeholder="Ingrese su Edad" Margin="10,5,10,5" />
+        <Label Text="Correo:" />
+        <Entry x:Name="correos" Placeholder="Ingrese su Correo" Margin="10,5,10,5" />
+
+        <Button Text="Guardar" Clicked="btn_guardar" x:Name="guardar" BackgroundColor="Aqua" Margin="10,5,10,5" />
+    </StackLayout>
+
+</ContentPage>
